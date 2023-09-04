@@ -108,3 +108,44 @@
     background-color: rgb(135, 171, 221);
     color: #fff;
 }
+/* banner end */
+/* product section start */
+.product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1300px;
+    margin: 20px auto 0;
+     
+    gap: 20px;
+    background-color: rgb(200, 213, 213);
+    
+    
+}
+.single-product{
+    
+    
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px black;
+    background-color: #f9f9fb;
+    
+}
+.single-product img{
+    width: 80%;
+    display: block;
+    margin: 0 auto 0;
+}
+.product-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.product-icon .icon{
+    font-size: 20px;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: azure;
+}

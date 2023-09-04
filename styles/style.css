@@ -149,3 +149,52 @@
     text-align: center;
     background-color: azure;
 }
+.discount{
+    max-width: 1400px;
+    border:1px solid green;
+    min-height: 50px;
+    margin: 0 30px 0;
+    background-color: rgb(186, 129, 240);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+}
+.discount-product{
+    width: 50%;
+     
+}
+.about-discount{
+    width: 50%;
+     
+}
+.presentist{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    
+    
+}
+.presentist p{
+    text-align: center;
+    margin: 25%;
+    font-size: 30px;
+}
+.discount h2{
+    margin-bottom: 20px;
+}
+.discount p{
+    margin-bottom: 20px;
+}
+.discount button{
+    border: none;
+    padding: 10px 15px;
+}

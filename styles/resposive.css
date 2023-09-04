@@ -29,4 +29,10 @@
     .single-product{
      width: 100%;
     }
+    .discount{
+         flex-direction: column; 
+        }
+        .discount-product img{
+            width: 50%;
+        }
 }
